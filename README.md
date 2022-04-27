@@ -16,7 +16,9 @@ For developers, do this
 ## Docker Setup Example
 
 - Setup you .env file as before build your image.
+- execute : 
   docker build . -t bb/discord-mirror
 
-- Pass in .env file to container.
+- Pass in .env file to container to pass in your token and target server.
+- execute :
   docker run --env-file C:\.env -d bb/discord-mirror
