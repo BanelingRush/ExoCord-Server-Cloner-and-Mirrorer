@@ -21,4 +21,4 @@ For developers, do this
 
 - Pass in .env file to container to pass in your token and target server.
 - execute :
-  docker run --env-file C:\.env -d bb/discord-mirror
+  docker run --env-file C:\\.env -d bb/discord-mirror
